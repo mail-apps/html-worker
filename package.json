@@ -1,0 +1,34 @@
+{
+  "name": "DomParserSrc",
+  "version": "1.0.0",
+  "description": "this directory contain the DOM parser code which run in HTML5 Worker.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/html-shell/gecko.git"
+  },
+  "main": "DomParser.js",
+  "dependencies": {
+    "htmlparser2": "^3.8.2",
+    "domutils": "https://github.com/liuxiong332/node-htmlparser-domutils.git#master",
+    "domhandler": "https://github.com/liuxiong332/node-domhandler2.git#master"
+  },
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.0",
+    "browserify-shim": "~3.8.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^1.2.0",
+    "karma": "lygstate/karma.git#master",
+    "karma-browserify": "^4.1.2",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5"
+  },
+  "browserify-shim": {
+    "external": "global:External"
+  }
+}

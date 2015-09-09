@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Root>
+  <Hello attr1="val1" attr2="val2">
+    <World attr3="val3" attr4="val4" />
+  </Hello>
+</Root>

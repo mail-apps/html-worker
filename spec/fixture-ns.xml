@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns:ns1="namespace1" details="set ns1">
+  <ns1:node1 details="get ns1">
+    <ns2:node2 xmlns:ns2="namespace2" details="set and get ns2">
+      <ns2:node3 details="get ns2">
+        <node4 xmlns="namespace-default" details="set default namespace">
+          <node5 details="get default namespace">
+            <ns1:node6 details="get ns1 again" >Hello, Goodbye</ns1:node6>
+          </node5>
+        </node4>
+      </ns2:node3>
+    </ns2:node2>
+  </ns1:node1>
+</root>
